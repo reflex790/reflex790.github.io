@@ -121,20 +121,6 @@
 		</div>
 	</section>
 
-	<!-- News Section -->
-	<section id="news" class="projects-section text-center bg-light">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 mx-auto">
-					<h2>NEWS</h2>
-					<?php $html = ""; $url = "https://blog.nopaynocure.com/feed/"; $xml = simplexml_load_file($url); for($i = 0; $i < 3; $i++){ $title = $xml->channel->item[$i]->title; $link = $xml->channel->item[$i]->link; $description = $xml->channel->item[$i]->description; $pubDate = $xml->channel->item[$i]->pubDate;$html .= "<a href='$link'><h4>$title</h4></a>"; $html .= "$description $pubDate <br><hr>"; } echo $html; ?>
-					<a href="https://blog.nopaynocure.com/nieuws/"
-						class="btn btn-default btn-lg">More News</a>
-				</div>
-			</div>
-		</div>
-	</section>
-
 	<!-- Team Members -->
 	<section id="team" class="projects-section text-center bg-light">
 		<div class="container">
@@ -180,7 +166,5 @@
 
 	<!-- Custom scripts for this template -->
 	<script src="js/grayscale.min.js"></script>
-
 </body>
-
 </html>

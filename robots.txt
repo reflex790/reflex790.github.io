@@ -1,0 +1,29 @@
+User-agent: Fasterfox
+Disallow: /
+
+User-Agent: 008
+Disallow: /
+
+User-Agent: Yandex
+Disallow: /
+
+User-Agent: YandexBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: Exabot
+Disallow: /
+
+User-agent: proximic
+Disallow: /
+
+User-Agent: YoudaoBot
+Disallow: /
+
+User-Agent: AhrefsBot
+disallow: /
+
+User-agent: *
+Disallow: /
